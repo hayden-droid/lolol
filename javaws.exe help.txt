@@ -1,0 +1,27 @@
+Usage: javaws [run-options] <jnlp-file>
+       javaws [control-options]
+
+
+where run-options include:
+ -verbose	display additional output
+ -offline	run the application in offline mode
+ -system	run the application from the system cache only
+ -Xnosplash	run without showing a splash screen
+ -J<option>	supply ption to the vm
+ -wait		start java process and wait for its exit
+
+
+control-option include:
+ -viewer				show the cache viewer in the java control panel
+ -clearcache				remove all non-installed applications from the cache
+ -uninstall				remove all application from the cache
+ -uninstall  <jnlp-file>		remove the application from the cache
+ -import [import-options] <jnlp-file>	import the application to the cache
+
+
+import-options include:
+ -silent		import silently (with no user interface)
+ -system		import the application into the system cache
+ -codebase <url>	retrieve resources fromt he given codebase
+ -shortcut		install shortcuts as if user allowed prompt
+ -association		install associations as if user allowed prompt

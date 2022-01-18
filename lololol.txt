@@ -1,0 +1,27 @@
+ bingusData.food.owned+=9999999999999999999999999999;
+  bingusData.wood.owned+=9999999999999999999999999999;
+  bingusData.stone.owned+=999999999999999999999999999;
+  bingusData.barn.owned+=9999999999999999999999999999;
+  bingusData.woodstock.owned+=9999999999999999999999999999;
+  bingusData.stonestock.owned+=9999999999999999999999999999;
+  bingusData.herbs.owned+=99999999999999999999;
+  bingusData.skins.owned+=99999999999999999999;
+  bingusData.ore.owned+=99999999999999999999;
+  bingusData.leather.owned+=99999999999999999999;
+  bingusData.metal.owned+=99999999999999999999;
+  bingusData.piety.owned+=99999999999999999999;
+  bingusData.gold.owned+=99999999999999999999;
+  bingusData.tent.owned+=99999999999999999999;
+  bingusData.hut.owned+=99999999999999999999;
+  bingusData.cottage.owned+=99999999999999999999;
+  bingusData.house.owned+=99999999999999999999;
+  bingusData.tenements.owned+=99999999999999999999;
+  bingusData.slums.owned+=99999999999999999999;
+  bingusData.mansion.owned+=99999999999999999999;
+
+  renameRuler("'I AM RETHINKING MY LIFE' - Game Creator");
+  updatePopulation();
+  updateUpgrades();
+  updateResourceTotals();
+  tradeTimer(10); // Forces a trade offer to show up. // Sets the number of *population type* to 69.420
+  bingusData.freeland.owned+=99999999999999999999;
